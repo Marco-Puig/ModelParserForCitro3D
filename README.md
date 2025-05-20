@@ -1,5 +1,5 @@
 # Model Parser for Citro3D/devkitPro
-Model Parser for Citro3D/devkitPro is a Python program that converts a model to ```.c``` code that can be used for Citro3D/devkitPro
+Model Parser for Citro3D/devkitPro is a Python program that converts a model to ```.c``` code for Citro3D/devkitPro
 
 Model in Blender             |  Model being rendered via Citro3D 
 :-------------------------:|:-------------------------:
