@@ -17,14 +17,14 @@ In order to generate an accurate output like:
 
 2. In the **export options panel** on the left:
      ### Check:
-   * ✔️ **Selection Only** (optional: only if you want to export only selected object)
+   * ✔️ **Selection Only** 
    * ✔️ **Include Normals**
    * ✔️ **Include UVs**
-   * ❌ **Write Materials** *(optional — disable if you don’t need `.mtl` files)*
-   * ✔️ **Triangulate Faces** → **Enabled** *(important to match triangle-based rendering)*
-   * ✔️ **Include Edges** *(optional — not used in most rendering)*
-   * ✔️ **Objects as OBJ Objects** *(recommended for single model)*
-   * ✔️ **Apply Modifiers** *(recommended if you've used modifiers like Subdivision Surface)*
+   * ❌ **Write Materials** **Disable**
+   * ✔️ **Triangulate Faces** → **Enabled** 
+   * ✔️ **Include Edges** 
+   * ✔️ **Objects as OBJ Objects** 
+   * ✔️ **Apply Modifiers** 
    ### Change:
    * ⚠️ **Forward Axis:** usually set to `-Z Forward`
    * ⚠️ **Up Axis:** usually `Y Up`
