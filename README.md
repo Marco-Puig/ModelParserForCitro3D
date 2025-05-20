@@ -1,4 +1,9 @@
 # Model Parser for Citro3D/devkitPro
+Model Parser for Citro3D/devkitPro is a Python program that converts an Obj to .c code that can be used for Citro3D/devkitPro
+
+Model in Blender             |  Model being rendered via Citro3D 
+:-------------------------:|:-------------------------:
+<img width="337" alt="exampleBlender" src="https://github.com/user-attachments/assets/7763154b-0818-407b-b423-796f7fd6bca9" /> | <img width="300" alt="example3ds" src="https://github.com/user-attachments/assets/6c63945e-4f16-41bd-a648-52280b7a87c6" />
 
 ## Please Read the Following to Understand the process of prepping your model before converting it into a ``vertex_list``:
 
@@ -25,7 +30,7 @@ In order to generate an accurate output like:
    * ⚠️ **Up Axis:** usually `Y Up`
 
 ---
-### Tips:
+### Additional Warnings:
 
 * If your model doesn’t have UVs yet, unwrap it first in Blender (`Tab` → Edit Mode → `U` → Unwrap).
 * If your model is smooth-shaded, know that the export will work, but the final model may not carry such properties over.
